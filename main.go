@@ -22,8 +22,6 @@ func main() {
 	fmt.Scanln(&path)
 
 	pwd, _ := os.Getwd()
-	// TODO change before evaluation
-	//pwd += "/Obscene Vocabulary Checker/task/"
 	pwd += "/"
 
 	dat, err := os.ReadFile(pwd + path)
